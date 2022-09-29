@@ -10,5 +10,7 @@
     <string name="select_option_for_weight">Select option for weight</string>
 
     <string name="activity_question_text">Select the option that fits you best</string>
+    <string name="next_button_text">Next</string>
+    <string name="cigarretes_question_text">How many cigarretes do you smoke?</string>
 
 </resources>
