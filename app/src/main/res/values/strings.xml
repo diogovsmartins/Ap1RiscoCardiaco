@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="age_question_text">Which of these options is closer to your age?</string>
+    <string name="select_option_for_age">Select your age</string>
+
+    <string name="gender_question_text">Which of these genders fits you best?</string>
+    <string name="select_option_for_gender">Select your gender</string>
+
+    <string name="weight_question_text">Which of these weights is closer to yours?</string>
+    <string name="select_option_for_weight">Select option for weight</string>
+
+    <string name="activity_question_text">Select the option that fits you best</string>
+
+</resources>

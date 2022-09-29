@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age_question">
+        <item>between 10 and 20 years</item>
+        <item>between 21 and 30 years</item>
+        <item>between 31 and 40 years</item>
+        <item>between 41 and 50 years</item>
+        <item>between 51 and 60 years</item>
+        <item>above 61 years</item>
+    </string-array>
+
+    <string-array name="gender_question">
+    <item>woman under 40 years</item>
+    <item>woman between 40 and 50 years</item>
+    <item>woman above 50 years</item>
+    <item>men</item>
+    <item>men with low stature</item>
+    <item>men with low stature and no hair</item>
+    </string-array>
+
+    <string-array name="weight_question">
+        <item>2,3kg bottom the normal weight</item>
+        <item>more than 2,3kg bottom the normal weight</item>
+        <item>between 2,4kg and 9,0kg above the normal weight</item>
+        <item>between 9,1kg and 15,9kg above the normal weight</item>
+        <item>between 16,0kg and 22,9kg above the normal weight</item>
+        <item>more than 23kg above the normal weight</item>
+    </string-array>
+
+    <string-array name="activity_question">
+        <item>professional effort and intense recreational</item>
+        <item>professional effort and moderate recreational</item>
+        <item>professional sedentary and intense recreational</item>
+        <item>professional sedentary and moderate recreational</item>
+        <item>professional sedentary and low recreational</item>
+        <item>complete absence in any exercise</item>
+    </string-array>
+
+    <string-array name="cigarette_question">
+        <item>do not smoke</item>
+        <item>cigar and/or smoking pipe</item>
+        <item>10 cigarettes or less</item>
+        <item>between 11 and 20 cigarettes for day</item>
+        <item>between 21 and 30 cigarettes for day</item>
+        <item>more than 31 cigarettes for day</item>
+    </string-array>
+
+    <string-array name="pression_question">
+        <item>systolic between 100 and 119mmHg</item>
+        <item>systolic between 120 and 139mmHg</item>
+        <item>systolic between 140 and 159mmHg</item>
+        <item>systolic between 160 and 179mmHg</item>
+        <item>systolic between 180 and 199mmHg</item>
+        <item>systolic 200 or more</item>
+    </string-array>
+
+    <string-array name="disease_question">
+        <item>0 cases of heart disease</item>
+        <item>1 cases of heart disease more than 60 years</item>
+        <item>2 cases of heart disease more than 60 years</item>
+        <item>1 cases of heart disease less than 60 years</item>
+        <item>2 cases of heart disease less than 60 years</item>
+        <item>3 cases of heart disease less than 60 years</item>
+    </string-array>
+
+    <string-array name="colesterol_question">
+        <item>above 180 or the diet does not contain fat</item>
+        <item>between 181 and 205 or the diet contains 10% of fat</item>
+        <item>between 206 and 230 or the diet contains 20% of fat</item>
+        <item>between 231 and 255 or the diet contains 30% of fat</item>
+        <item>between 256 and 280 or the diet contains 40% of fat</item>
+        <item>between 281 or the diet contains 50% of fat</item>
+    </string-array>
+
+</resources>
