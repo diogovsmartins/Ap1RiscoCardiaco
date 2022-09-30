@@ -10,12 +10,12 @@
     </string-array>
 
     <string-array name="gender_question">
-    <item>woman under 40 years</item>
-    <item>woman between 40 and 50 years</item>
-    <item>woman above 50 years</item>
-    <item>men</item>
-    <item>men with low stature</item>
-    <item>men with low stature and no hair</item>
+        <item>woman under 40 years</item>
+        <item>woman between 40 and 50 years</item>
+        <item>woman above 50 years</item>
+        <item>men</item>
+        <item>men with low stature</item>
+        <item>men with low stature and no hair</item>
     </string-array>
 
     <string-array name="weight_question">
@@ -37,7 +37,7 @@
     </string-array>
 
     <string-array name="cigarette_question">
-        <item>do not smoke</item>
+        <item>none</item>
         <item>cigar and/or smoking pipe</item>
         <item>10 cigarettes or less</item>
         <item>between 11 and 20 cigarettes for day</item>
@@ -54,7 +54,7 @@
         <item>systolic 200 or more</item>
     </string-array>
 
-    <string-array name="disease_question">
+    <string-array name="heart_disease_question">
         <item>0 cases of heart disease</item>
         <item>1 cases of heart disease more than 60 years</item>
         <item>2 cases of heart disease more than 60 years</item>
@@ -64,7 +64,7 @@
     </string-array>
 
     <string-array name="colesterol_question">
-        <item>above 180 or the diet does not contain fat</item>
+        <item>a 180 or the diet does not contain fat</item>
         <item>between 181 and 205 or the diet contains 10% of fat</item>
         <item>between 206 and 230 or the diet contains 20% of fat</item>
         <item>between 231 and 255 or the diet contains 30% of fat</item>

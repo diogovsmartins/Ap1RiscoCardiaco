@@ -9,8 +9,19 @@
     <string name="weight_question_text">Which of these weights is closer to yours?</string>
     <string name="select_option_for_weight">Select option for weight</string>
 
-    <string name="activity_question_text">Select the option that fits you best</string>
-    <string name="next_button_text">Next</string>
-    <string name="cigarretes_question_text">How many cigarretes do you smoke?</string>
+    <string name="heart_question_text">You have parents with heart disease?</string>
+    <string name="select_option_for_heart">Select option fits you best</string>
 
+    <string name="generic_option_for_selection">Select the option fits you best</string>
+
+    <string name="cigarettes_question_text">How many cigarettes do you smoke?</string>
+    <string name="select_option_for_cigarettes">Select option for cigarettes</string>
+
+    <string name="pressure_question_text">How many pressure do you have?</string>
+    <string name="select_option_for_pressure">Select option for pressure</string>
+
+    <string name="cholesterol_question_text">How high is your cholesterol?</string>
+    <string name="select_option_for_cholesterol">Select option for cholesterol</string>
+
+    <string name="next_button_text">Next</string>
 </resources>
