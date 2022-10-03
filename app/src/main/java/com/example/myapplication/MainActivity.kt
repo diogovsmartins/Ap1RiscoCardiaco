@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding.buttonNextScreen.setOnClickListener{
             getValuesFromFirstPage()
         }
+
     }
 
     private fun createDropDowns (){
@@ -31,15 +32,27 @@ class MainActivity : AppCompatActivity() {
         return ArrayAdapter(this, R.layout.drop_down_layout, options)
     }
 
+    private fun something(optionsList: List<String>, answers:Array<String>){
+        val options=optionsList
+        val optionValue= arrayOf(1,2,3,4,5,6)
+
+        val optionsMappedBySeverity=options.zip(optionValue).toMap()
+        val totalScore=answers.forEach { return answers->optionsMappedBySeverity.get(answers) }
+        print(totalScore)
+    }
+
     private fun getValuesFromFirstPage(){
         val firstPageValues=ResultObjectFromFirstPage(
             arrayOf(binding.ageQuestionAnswers.text.toString(),
             binding.genderQuestionAnswers.text.toString(),
             binding.weightQuestionAnswers.text.toString(),
             binding.activityQuestionAnswers.text.toString()))
-
+something(ArrayList(resources.getStringArray(R.array.age_question).toMutableList()),
+        firstPageValues.firstPageResults)
         var intent= Intent(this, SecondActivity::class.java)
         intent.putExtra("valuesFromFirstPage", firstPageValues)
         startActivity(intent)
     }
+
 }
+

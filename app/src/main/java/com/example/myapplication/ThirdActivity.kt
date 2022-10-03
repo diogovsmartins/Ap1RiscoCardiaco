@@ -23,7 +23,15 @@ class ThirdActivity : AppCompatActivity() {
         val firstPageResults=intent.getParcelableExtra<ResultObjectFromFirstPage>("firstPageResults")
         val secondPageResults=intent.getParcelableExtra<ResultObjectFromSecondPage>("secondPageResults").toString()
         val options=createArrayFromArrayStrings()
+
     }
+
+    private fun something(optionsList: List<String>){
+        val options=optionsList
+        val optionValue= arrayOf(1,2,3,4,5,6)
+
+    }
+
 
     private fun createArrayFromArrayStrings(): AllOptionsFromTheAssesment {
       val ageArray=ArrayList(resources.getStringArray(R.array.age_question).toMutableList())

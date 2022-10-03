@@ -10,3 +10,4 @@ package com.example.myapplication.dataObjects
      var heartDiseaseQuestion: ArrayList<String>,
      var cholesterolQuestion: ArrayList<String>
  )
+
