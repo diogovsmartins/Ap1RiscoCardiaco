@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.dataObjects.ResultObjectFromFirstPage
 import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -31,9 +32,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getValuesFromFirstPage(){
-        val results=ResultObject(binding.textInputForAge.toString())
+        val firstPageValues=ResultObjectFromFirstPage(
+            arrayOf(binding.ageQuestionAnswers.text.toString(),
+            binding.genderQuestionAnswers.text.toString(),
+            binding.weightQuestionAnswers.text.toString(),
+            binding.activityQuestionAnswers.text.toString()))
+
         var intent= Intent(this, SecondActivity::class.java)
-        intent.putExtra("valuesFromFirstPage", results)
+        intent.putExtra("valuesFromFirstPage", firstPageValues)
         startActivity(intent)
     }
 }

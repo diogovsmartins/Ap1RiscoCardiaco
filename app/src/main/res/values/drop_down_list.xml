@@ -45,7 +45,7 @@
         <item>more than 31 cigarettes for day</item>
     </string-array>
 
-    <string-array name="pression_question">
+    <string-array name="pressure_question">
         <item>systolic between 100 and 119mmHg</item>
         <item>systolic between 120 and 139mmHg</item>
         <item>systolic between 140 and 159mmHg</item>
@@ -63,7 +63,7 @@
         <item>3 cases of heart disease less than 60 years</item>
     </string-array>
 
-    <string-array name="colesterol_question">
+    <string-array name="cholesterol_question">
         <item>a 180 or the diet does not contain fat</item>
         <item>between 181 and 205 or the diet contains 10% of fat</item>
         <item>between 206 and 230 or the diet contains 20% of fat</item>
